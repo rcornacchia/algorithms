@@ -1,0 +1,14 @@
++ sorting
+  - merge sort
+  - quicksort
++ trees
+  - BFS
+  - DFS
+  - preorder, postorder, inorder traversal
+  - balancing BST
+  - Red-black tree
++ graphs
+  - BFS
+  - DFS
+  - dijsktra
+  - A*
