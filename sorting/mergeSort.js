@@ -16,8 +16,12 @@ const merge = (arr, start, mid, end) => {
   let right = arr.slice(mid+1, end+1)
   let i = 0
   while (left.length || right.length) {
-    if (!left.length) result.concat.apply(result, right)
-    if (!right.length) result.push (...left)
+    console.log(result)
+    console.log(right)
+    console.log(left)
+    if (!left.length && right.length) result.push(...right)
+    if (!right.length && left.length) result.push(...left)
+    console.log('test')
     (left[0] < right[0])
       ? result.push(left.pop())
       : result.push(right.pop())
@@ -25,5 +29,5 @@ const merge = (arr, start, mid, end) => {
   return result
 }
 
-const result = merge([1, 5, 7, 2, 4, 6, 10], 0, 3)
+const result = merge([1, 5, 7, 2, 4, 6, 10], 0, 3, 7)
 console.log(result)
