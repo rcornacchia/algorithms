@@ -1,8 +1,6 @@
 // given a sorted array of integers return the index of the given key or -1 if not found.
 
 function binarySearch(arr, key, start=0, end=arr.length-1) {
-
-
   const midIndex = Math.floor((end + start) / 2)
   const mid = arr[midIndex]
 
@@ -12,7 +10,7 @@ function binarySearch(arr, key, start=0, end=arr.length-1) {
   }
 
   if (mid > key) {
-    return binarySearch(arr, key, start, midIndex-1)
+    return binarySearch(arr, key, start, midIndex - 1)
   } else {
     return binarySearch(arr, key, midIndex + 1, end)
   }
