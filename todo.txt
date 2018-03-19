@@ -1,14 +1,24 @@
 + sorting
   - merge sort
   - quicksort
+  - heapsort
++ Linked list
+  - insert
+  - delete
+  - search
 + trees
   - BFS
   - DFS
+  - insert, delete, search
   - preorder, postorder, inorder traversal
   - balancing BST
   - Red-black tree
+  - AVL tree
 + graphs
   - BFS
   - DFS
   - dijsktra
   - A*
++ skip list
++ Bloom Filter
++ maximum subarray (CLRS and optimal solution)
