@@ -2,6 +2,9 @@
   - merge sort
   - quicksort
   - heapsort
+  - bucket sort
+  - radix sort
+  - counting sort
 + Linked list
   - insert
   - delete
@@ -10,15 +13,21 @@
   - BFS
   - DFS
   - insert, delete, search
+  - successor, predecessor
   - preorder, postorder, inorder traversal
   - balancing BST
   - Red-black tree
   - AVL tree
 + graphs
   - BFS
-  - DFS
+  - DFS (both recursive and iterative)
   - dijsktra
   - A*
+  - topological sort
+  - Strongly connected components
 + skip list
 + Bloom Filter
 + maximum subarray (CLRS and optimal solution)
++ quick select (randomized-select)
++ select
++ trie

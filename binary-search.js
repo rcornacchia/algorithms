@@ -4,8 +4,16 @@ function binarySearch(arr, key, start=0, end=arr.length-1) {
   const midIndex = Math.floor((end + start) / 2)
   const mid = arr[midIndex]
 
+  console.log('')
+  console.log(`Start: ${start}`)
+  console.log(`End: ${end}`)
+  console.log(`Mid: ${mid}`)
+  console.log(`Arr: ${arr}`)
+
   if (mid == key) return midIndex
   if (start - end == 0) {
+
+    console.log('test')
     return -1
   }
 
@@ -16,7 +24,7 @@ function binarySearch(arr, key, start=0, end=arr.length-1) {
   }
 }
 
-const a = [1, 5, 8, 9, 19, 199, 390]
+const a = [1, 5, 8, 9, 19, 199, 390, 2, 3, 88]
 
 console.log(binarySearch(a, 1))   // 0
 console.log(binarySearch(a, 5))   // 1
